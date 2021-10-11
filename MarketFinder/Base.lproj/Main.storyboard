@@ -12,7 +12,7 @@
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="FirstViewController" customModule="MarketFinder" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC" customClass="First">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -56,8 +56,8 @@
                         <viewLayoutGuide key="safeArea" id="SXy-4N-DKl"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="SXy-4N-DKl" firstAttribute="bottom" secondItem="wQ2-PS-8aE" secondAttribute="bottom" id="elr-iv-Rhx"/>
                             <constraint firstItem="wQ2-PS-8aE" firstAttribute="top" secondItem="SXy-4N-DKl" secondAttribute="top" id="fwH-3t-P6M"/>
-                            <constraint firstItem="SXy-4N-DKl" firstAttribute="bottom" secondItem="wQ2-PS-8aE" secondAttribute="bottom" id="hRH-ll-ljB"/>
                             <constraint firstItem="wQ2-PS-8aE" firstAttribute="leading" secondItem="SXy-4N-DKl" secondAttribute="leading" id="tdS-eS-JKU"/>
                             <constraint firstItem="SXy-4N-DKl" firstAttribute="trailing" secondItem="wQ2-PS-8aE" secondAttribute="trailing" id="uhw-nK-bBQ"/>
                         </constraints>
@@ -68,7 +68,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kn5-OS-n0k" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1986" y="103"/>
+            <point key="canvasLocation" x="2000.0000000000002" y="93.75"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="3vP-wb-d76">

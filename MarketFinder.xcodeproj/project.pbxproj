@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B36FDCA27138622007A0EC0 /* BusinessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B36FDC927138622007A0EC0 /* BusinessView.swift */; };
 		0B58A4F127128F4B00FD4AD1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B58A4F027128F4B00FD4AD1 /* AppDelegate.swift */; };
 		0B58A4F327128F4B00FD4AD1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B58A4F227128F4B00FD4AD1 /* SceneDelegate.swift */; };
 		0B58A4F527128F4B00FD4AD1 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B58A4F427128F4B00FD4AD1 /* FirstViewController.swift */; };
@@ -14,9 +15,12 @@
 		0B58A4FA27128F4F00FD4AD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B58A4F927128F4F00FD4AD1 /* Assets.xcassets */; };
 		0B58A4FD27128F4F00FD4AD1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B58A4FB27128F4F00FD4AD1 /* LaunchScreen.storyboard */; };
 		0B58A5052712961500FD4AD1 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B58A5042712961500FD4AD1 /* MapViewController.swift */; };
+		0B9EC38027133C9800E830CA /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B9EC37F27133C9800E830CA /* Api.swift */; };
+		0B9EC382271368AA00E830CA /* Business.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B9EC381271368AA00E830CA /* Business.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0B36FDC927138622007A0EC0 /* BusinessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessView.swift; sourceTree = "<group>"; };
 		0B58A4ED27128F4B00FD4AD1 /* MarketFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarketFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B58A4F027128F4B00FD4AD1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0B58A4F227128F4B00FD4AD1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +30,8 @@
 		0B58A4FC27128F4F00FD4AD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0B58A4FE27128F4F00FD4AD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0B58A5042712961500FD4AD1 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		0B9EC37F27133C9800E830CA /* Api.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Api.swift; sourceTree = "<group>"; };
+		0B9EC381271368AA00E830CA /* Business.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Business.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +72,9 @@
 				0B58A4F927128F4F00FD4AD1 /* Assets.xcassets */,
 				0B58A4FB27128F4F00FD4AD1 /* LaunchScreen.storyboard */,
 				0B58A4FE27128F4F00FD4AD1 /* Info.plist */,
+				0B9EC37F27133C9800E830CA /* Api.swift */,
+				0B9EC381271368AA00E830CA /* Business.swift */,
+				0B36FDC927138622007A0EC0 /* BusinessView.swift */,
 			);
 			path = MarketFinder;
 			sourceTree = "<group>";
@@ -141,10 +150,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B36FDCA27138622007A0EC0 /* BusinessView.swift in Sources */,
 				0B58A4F527128F4B00FD4AD1 /* FirstViewController.swift in Sources */,
 				0B58A4F127128F4B00FD4AD1 /* AppDelegate.swift in Sources */,
 				0B58A4F327128F4B00FD4AD1 /* SceneDelegate.swift in Sources */,
+				0B9EC382271368AA00E830CA /* Business.swift in Sources */,
 				0B58A5052712961500FD4AD1 /* MapViewController.swift in Sources */,
+				0B9EC38027133C9800E830CA /* Api.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
